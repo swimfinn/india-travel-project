@@ -3,9 +3,18 @@ body {
     background-color: #272844;
 }
 
-
 .container {
     max-width: 1400px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -58,10 +67,44 @@ header a {
 
 footer {
     color: white;
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 068, 0.9)), url('./images/tiger.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size:  20px;
+    line-height: 30px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-right: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
 
     header {
         padding: 60px 0px;
