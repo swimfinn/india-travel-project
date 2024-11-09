@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
 }
 
+
 .grid {
     display: grid;
     grid-gap: 64px;
@@ -27,6 +28,10 @@ body {
    aspect-ratio: 1 / 1;
 }
 
+.instagram-embed {
+    margin: 30px 0;
+
+}
 
 .grid-3-columns {
 grid-template-columns: 1fr 1fr 1fr;
@@ -249,6 +254,7 @@ font-size: 48px;
     .embed {
         aspect-ratio: 16 / 9;
     }
+
 
     .temple {
         max-width: 400px !important;
